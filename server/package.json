@@ -1,0 +1,36 @@
+{
+  "name": "fake-stock-trading",
+  "version": "0.0.1",
+  "description": "A fake stock trading server for fun",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp clean && NODE_ENV=development gulp",
+    "lint": "gulp lint",
+    "build": "gulp build",
+    "serve": "gulp serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fake",
+    "stock",
+    "trading"
+  ],
+  "author": "An LP Nguyen",
+  "license": "MIT",
+  "devDependencies": {
+    "node-bb": "^2.0.7"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "body-parser": "^1.15.2",
+    "bufferutil": "^1.2.1",
+    "express": "^4.14.0",
+    "express-validator": "^2.20.10",
+    "fake-stock-server": "0.0.5",
+    "jsonwebtoken": "^7.1.9",
+    "mongoose": "^4.6.4",
+    "morgan": "^1.7.0",
+    "utf-8-validate": "^1.2.1",
+    "ws": "^1.1.1"
+  }
+}
